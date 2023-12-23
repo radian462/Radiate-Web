@@ -1,0 +1,16 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(25deg, #FFFFFF 55%, #5868F5);
+}
+
+header{
+  width: 1260px;
+  height: 50px;
+  position: relative;
+  right: 20px;
+  bottom: 22px;
+  background-color: #5868F5;
+  color:#FFFFFF;
+  padding-left:20px;
+}
