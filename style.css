@@ -20,8 +20,6 @@ header{
 
 header ul{
   display: flex;
-  justify-content: flex-end; /* 右寄せ */
-  width: 100%;
 }
 
 header ul li{
