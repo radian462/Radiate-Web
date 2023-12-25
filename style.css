@@ -28,7 +28,6 @@ ul li{
   bottom: 105px;
   right: 80px;
   list-style: none;
-  padding-left: 35px;
 }
 
 ul li a{
@@ -39,7 +38,6 @@ ul li a{
   font-size:10px;
   position: relative;
   left: 55px;
-  top: 5px;
   display:block
 }
 
@@ -51,36 +49,53 @@ ul li img{
   height: 40px;
 }
 
+#house{
+    position: relative;
+    left: -105px;
+}
+
 #home {
   position: relative;
-  left: 11px;
-  bottom: 16px;
+  left: -100px;
+  bottom: 10px;
 }
 
 #console{
   width: 50px; 
   height: 40px;
   position: relative;
+  left: -75px;
   top: 5px;
 }
 
 #function{
   position: relative;
-  left: 18px;
-  bottom: 15px;
+  left: -62px;
+  bottom: 10px;
+}
+
+#spana{
+  position: relative;
+  left: -50px;
+}
+
+#update{
+  position: relative;
+  left: -55px;
+  bottom: 10px;
 }
 
 #discord{
   width: 50px; 
   height: 40px;
   position: relative;
-  left: -11px;
+  left: -40px;
 }
 
 #server{
   position: relative;
-  left: -9px;
-  bottom: 16px;
+  left: -38px;
+  bottom: 10px;
 }
 
 #install{
@@ -93,5 +108,5 @@ ul li img{
 #add{
   position: relative;
   left: -15px;
-  bottom: 16px;
+  bottom: 10px;
 }
