@@ -6,31 +6,71 @@ html {
 
 header{
   width: 100%;
-  height: 75px;
+  height: 85px;
   position: relative;
   right: 20px;
-  bottom: 22px;
-  background-color: #5868F5;
-  color:#FFFFFF;
+  bottom: 20px;
+  border-bottom: solid 10px #F4F4F4; 
+  background-color: #00000000;
+  color:#000000;
   padding-left:25px;
   padding-top: 5px;
   display:flex;
 }
 
 header ul{
-  bottom: 10px;
   display: flex;
+  justify-content: flex-end; /* 右寄せ */
+  width: 100%;
 }
 
 header ul li{
+  position: relative;
+  bottom: 30px;
   list-style: none;
-  padding-left: 35px;
+  padding-left: 40px;
   padding-top: 30px;
 }
 
 header ul li a{
   text-decoration: none;
-  color: #fff;
+  color: #000000;
   text-transform: uppercase;
+  font-family:sans-serif;
+  font-size:10px;
+  position: relative;
+  left: 40px;
+}
 
+header ul li img{
+  position: relative;
+  left: 6px;
+  display:flex;
+  width: 40px; 
+  height: 40px;
+}
+
+#home {
+  position: relative;
+  left: 11px;
+  bottom: 16px;
+}
+
+#console{
+  width: 50px; 
+  height: 40px;
+  position: relative;
+  top: 5px;
+}
+
+#function{
+  position: relative;
+  left: 18px;
+  bottom: 15px;
+}
+
+#notice{
+  position: relative;
+  left: 6px;
+  bottom: 16px;
 }
