@@ -26,7 +26,7 @@ ul{
 ul li{
   position: relative;
   bottom: 105px;
-  right: 50px;
+  right: 80px;
   list-style: none;
   padding-left: 35px;
 }
@@ -39,6 +39,7 @@ ul li a{
   font-size:10px;
   position: relative;
   left: 55px;
+  top: 5px;
   display:block
 }
 
@@ -69,13 +70,28 @@ ul li img{
   bottom: 15px;
 }
 
-#notice{
+#discord{
+  width: 50px; 
+  height: 40px;
   position: relative;
-  left: -10px;
+  left: -11px;
+}
+
+#server{
+  position: relative;
+  left: -9px;
   bottom: 16px;
 }
 
-#bell{
+#install{
+  width: 50px; 
+  height: 40px;
   position: relative;
-  left: -10px;
+  left: -15px;
+}
+
+#add{
+  position: relative;
+  left: -15px;
+  bottom: 16px;
 }
