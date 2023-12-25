@@ -38,7 +38,8 @@ ul li a{
   font-family:sans-serif;
   font-size:10px;
   position: relative;
-  left: 40px;
+  left: 55px;
+  display:block
 }
 
 ul li img{
@@ -70,6 +71,11 @@ ul li img{
 
 #notice{
   position: relative;
-  left: 6px;
+  left: -10px;
   bottom: 16px;
+}
+
+#bell{
+  position: relative;
+  left: -10px;
 }
