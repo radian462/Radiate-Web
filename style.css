@@ -18,19 +18,20 @@ header{
   display:flex;
 }
 
-header ul{
+ul{
   display: flex;
+  justify-content: flex-end;
 }
 
-header ul li{
+ul li{
   position: relative;
-  bottom: 30px;
+  bottom: 115px;
+  right: 50px;
   list-style: none;
-  padding-left: 40px;
-  padding-top: 30px;
+  padding-left: 35px;
 }
 
-header ul li a{
+ul li a{
   text-decoration: none;
   color: #000000;
   text-transform: uppercase;
@@ -40,7 +41,7 @@ header ul li a{
   left: 40px;
 }
 
-header ul li img{
+ul li img{
   position: relative;
   left: 6px;
   display:flex;
