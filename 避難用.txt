@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <!--  なんでこんなサイトのソース見てるの？  -->
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>トップ - Radiate</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Radiate</h1>
+  </header>
+
+  <nav>
+    <ul class="nav-menu">
+      <li>
+        <a href="#">
+          <img src="image/家.svg" id="house">
+          <p id="home">ホーム</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="image/コンソール.svg" id="console">
+          <p id="function">機能</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="image/スパナと金槌.png" id="spana">
+          <p id="update">アップデート</p>
+        </a>
+      </li>
+      <li>
+        <a href="https://discord.com/invite/BvvkfFVcXU">
+          <img src="image/discord.svg" id="discord">
+          <p id="server">Discord</p>
+        </a>
+      </li>
+      <li>
+        <a href="https://discord.com/api/oauth2/authorize?client_id=1173980854507274323&permissions=8&scope=bot">
+          <img src="image/インストール.svg" id="install">
+          <p id="add">Botを追加</p>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+    <div id="catchcopy">
+      <div id="catchcopy_text">
+        サーバーに<br>新たなアレンジを
+        <div id="catchcopy_discribe">
+          Radiateは独自の機能を多く搭載した多機能Botです
+        </div>
+      </div>
+      <img src="image/Radiate.png" id="logo">
+    </div>
+  </body>
+
+
+  <img src="wave/wave.svg" class="wave1"></img>
+  <div class="white"></div>
+
+
+  <div class = "gradient-box">
+  <div class = "gradient-box-content">
+    </div>
+  </div>

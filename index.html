@@ -1,10 +1,13 @@
+<!DOCTYPE html>
+<html lang="ja">
+
 <head>
+  <!--  なんでこんなサイトのソース見てるの？  -->
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css" type="text/css">
   <title>トップ - Radiate</title>
 </head>
 
-<body>
   <img src="wave/wave.svg" class="wave1"></img>
   <div class="white"></div>
 
@@ -12,43 +15,41 @@
     <h1>Radiate</h1>
   </header>
 
-  <nav>
-    <ul class="nav-menu">
-      <li>
-        <a href="#">
-          <img src="image/家.svg" id="house">
-          <p id="home">ホーム</p>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="image/コンソール.svg" id="console">
-          <p id="function">機能</p>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="image/スパナと金槌.png" id="spana">
-          <p id="update">アップデート</p>
-        </a>
-      </li>
-      <li>
-        <a href="https://discord.com/invite/BvvkfFVcXU">
-          <img src="image/discord.svg" id="discord">
-          <p id="server">Discord</p>
-        </a>
-      </li>
-      <li>
-        <a href="https://discord.com/api/oauth2/authorize?client_id=1173980854507274323&permissions=8&scope=bot">
-          <img src="image/インストール.svg" id="install">
-          <p id="add">Botを追加</p>
+  <ul>
+    <li>
+      <a href="#">
+        <img src="image/家.svg">
+        <p id ="home_text">ホーム</p>
+      </a>
+    </li>
+    <li>
+      <a href="#" id="function">
+          <img src="image/コンソール.svg" id="function_logo">
+          <p id="function_text">機能</p>
+      </a>
+    </li>
+    <li>
+      <a href="#" id="update">
+        <img src="image/スパナと金槌.png" id="update_logo">
+        <p id="update_text">アップデート</p>
+      </a>
+    </li>
+    <li>
+      <a href="https://discord.com/invite/BvvkfFVcXU" id="Discord">
+        <img src="image/discord.svg" id="Discord_logo">
+        <p id="Discord_text">Discord</p>
+      </a>
+    </li>
+    <li>
+        <a href="https://ia.f5.si/arTfzv" id="add">
+          <img src="image/インストール.svg" id="add_logo">
+          <p id="add_text">Botを追加</p>
         </a>
       </li>
     </ul>
-  </nav>
+  </ul>
 
-
-    <div id="catchcopy">
+  <div id="catchcopy">
       <div id="catchcopy_text">
         サーバーに<br>新たなアレンジを
         <div id="catchcopy_discribe">
@@ -59,7 +60,4 @@
     </div>
   </body>
 
-<div class = "gradient-box">
-  <div class = "gradient-box-content">
-    </div>
-  </div>
+</html>
